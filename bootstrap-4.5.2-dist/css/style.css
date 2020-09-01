@@ -32,6 +32,11 @@ footer {
 .padpos{
   padding:0 30px ;
 }
+
+.textlower{
+  position: relative;
+  top: 60px;
+}
 .poscenter{
   top: 0;
   left: 0;
