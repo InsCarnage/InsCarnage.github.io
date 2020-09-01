@@ -17,6 +17,14 @@ html, body {
   font-size: 500%;
   text-shadow: 1px 1px 10px #000000;
 }
+.jumbotron {
+  padding: 1rem;
+  border-radius: 0;
+}
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5d5;
+}
 
 
 
