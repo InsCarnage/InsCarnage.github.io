@@ -45,6 +45,7 @@ footer {
 .poscenter{
   top: 0;
   left: 0;
+  padding: 1px;
   width: 58%;
   float: center;
 }
@@ -171,35 +172,7 @@ ul {
 
 
 
-/*---Media Queries --*/
-@media (max-width: 992px) {
 
-  }
-@media (max-width: 768px) {
-  .padpos{
-    padding:0 0px ;
-  }
-  .textsize{
-    font-size: 30px;
-  }
-  
-}
-@media (max-width: 576px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-  .huge{
-    font-size: 150px;
-  }
-  .padpos{
-    padding:0 0px ;
-  }
-  .textsize{
-    font-size: 30px;
-  }
-}
 
 
 /*---Firefox Bug Fix --*/
@@ -300,8 +273,8 @@ body {
   position: relative;
   border-top: 4px solid #06182E;
   border-radius: 3px;
-  min-width: 200px;
-  max-width: 500px;
+  left: 35%;
+  
 }
 
 .entry img {
@@ -346,7 +319,7 @@ body {
 }
 
 .entry h2 {
-  letter-spacing: .2em;
+  letter-spacing: .1em;
   margin-bottom: 10px;
   font-size: 30px;
 }
@@ -358,4 +331,73 @@ body {
   position: relative;
   top: 13px;
   left: 0;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .entry {
+    display: inline-block;
+    vertical-align: top;
+    background: #13519C;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    border-top: 4px solid #06182E;
+    border-radius: 3px;
+    left: 25%;
+    
+    }
+}
+@media (max-width: 768px) {
+.padpos{
+  padding:0 0px ;
+}
+.textsize{
+  font-size: 20px;
+}
+.entry {
+  display: inline-block;
+  vertical-align: top;
+  background: #13519C;
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  border-top: 4px solid #06182E;
+  border-radius: 3px;
+  left: 20%;
+  
+  }
+}
+@media (max-width: 576px) {
+.column {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+.huge{
+  font-size: 150px;
+}
+.padpos{
+  padding:0 0px ;
+}
+.textsize{
+  font-size: 30px;
+}
+.entry {
+display: inline-block;
+vertical-align: top;
+background: #13519C;
+color: #fff;
+padding: 20px;
+font-size: 20px;
+text-align: center;
+position: relative;
+border-top: 4px solid #06182E;
+border-radius: 3px;
+left: 0%;
+}
 }
