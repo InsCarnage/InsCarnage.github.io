@@ -176,6 +176,9 @@ ul {
 
   }
 @media (max-width: 768px) {
+  .padpos{
+    padding:0 0px ;
+  }
   
 }
 @media (max-width: 576px) {
@@ -183,6 +186,12 @@ ul {
     width: 100%;
     display: block;
     margin-bottom: 20px;
+  }
+  .huge{
+    font-size: 150px;
+  }
+  .padpos{
+    padding:0 0px ;
   }
 }
 
