@@ -12,11 +12,16 @@ html, body {
 }
 .carousel-inner img {
   width: 100%;
-  height: 100;
+  height: 30;
   /* border-radius: 18px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9); */
 }
 .carousel-caption h1 {
+  font-size: 500%;
+  text-shadow: 1px 1px 10px #000000;
+}
+
+.shadow{
   font-size: 500%;
   text-shadow: 1px 1px 10px #000000;
 }
@@ -42,6 +47,10 @@ footer {
   left: 0;
   width: 58%;
   float: center;
+}
+.textTop{
+  position: relative;
+  top: 0px;
 }
 
 .card{
