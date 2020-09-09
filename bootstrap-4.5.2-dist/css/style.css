@@ -7,6 +7,19 @@ html, body {
   background-color: #3f3f3f;
   color: #222;
 }
+.samebackground{
+  background-color: #3f3f3f;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  border-color: #3f3f3f;
+}
+
+.blackground{
+  background-color: #3f3f3f;
+  border-color:#3f3f3f ;
+}
 .navbar{
   padding: .8rem;
 }
@@ -19,6 +32,8 @@ html, body {
 .carousel-caption h1 {
   font-size: 500%;
   text-shadow: 1px 1px 10px #000000;
+ 
+  
 }
 
 .shadow{
