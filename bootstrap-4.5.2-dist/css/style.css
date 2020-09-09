@@ -297,8 +297,6 @@ body {
   position: relative;
   border-top: 4px solid #06182E;
   border-radius: 3px;
-
-  
 }
 .centerall{
   top: 50%;
@@ -379,7 +377,7 @@ body {
     position: relative;
     border-top: 4px solid #06182E;
     border-radius: 3px;
-    left: 25%;
+    
     
     }
     .mobilehelp{
@@ -421,7 +419,7 @@ body {
   position: relative;
   border-top: 4px solid #06182E;
   border-radius: 3px;
-  left: 20%;
+  
   
   }
   .samebackground{
@@ -470,7 +468,6 @@ text-align: center;
 position: relative;
 border-top: 4px solid #06182E;
 border-radius: 3px;
-left: 0%;
 }
 .samebackground{
   background-color: #3f3f3f;
