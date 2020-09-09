@@ -258,7 +258,9 @@ figure {
 .textsize{
   font-size: 40px;
 }
-
+.maxTweetSize{
+  max-height: 300px;
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
