@@ -356,7 +356,7 @@ body {
 .bar {
   height: 4px;
   background: #eee;
-  width: 80%;
+  width: 100%;
   position: relative;
   top: 13px;
   left: 0;
