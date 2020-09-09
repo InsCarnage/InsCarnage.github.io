@@ -297,6 +297,7 @@ body {
   position: relative;
   border-top: 4px solid #06182E;
   border-radius: 3px;
+  left: -8%;
 }
 .centerall{
   top: 50%;
@@ -358,6 +359,10 @@ body {
   position: relative;
   top: 13px;
   left: 0;
+}
+.maxsize{
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 /*---Media Queries --*/
