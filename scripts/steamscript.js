@@ -24,8 +24,8 @@ function gamelogoTemplate(playedgame){
     return `
         <div class="gameTitles sameColor totheleft gamespaces">
             <img class="gamelogo" src ="http://media.steampowered.com/steamcommunity/public/images/apps/${playedgame.appid}/${playedgame.img_logo_url}.jpg">
-            <h2>${playedgame.name}</h2>
-            <p>${timeplayed(playedgame.playtime_forever)} hrs on record</p>
+            <h2 class="text-center" >${playedgame.name}</h2>
+            <p class="text-center">${timeplayed(playedgame.playtime_forever)} hrs on record</p>
         </div>
         `
 }
