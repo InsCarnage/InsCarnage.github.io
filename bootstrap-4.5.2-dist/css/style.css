@@ -18,6 +18,9 @@ html, body {
   margin: auto;
   border-color: #3f3f3f;
 }
+.overvlow{
+  max-width: 204px;
+}
 .gamespaces{
   padding: 10px;
 }

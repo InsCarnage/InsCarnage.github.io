@@ -8,6 +8,15 @@
 
 const api_url = 'https://cors-anywhere.herokuapp.com/http://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v0001/?key=74154A491CFC2034F06B54580A5A52E2&steamid=76561198242197926&format=json'
 
+function displayname(gametype){
+    let x = gametype.name;
+    if (x=="Counter-Strike: Global Offensive") {
+        x = "CS:GO" ;
+    }
+    return x;
+}
+
+
 function timeplayed(playtime_forever) {
     let timecalc =  (playtime_forever/60).toFixed(1);
     let timeINt = parseInt(timecalc)
@@ -22,9 +31,9 @@ function timeplayed(playtime_forever) {
 }
 function gamelogoTemplate(playedgame){
     return `
-        <div class="gameTitles sameColor totheleft gamespaces">
+        <div class="gameTitles sameColor totheleft gamespaces overvlow">
             <img class="gamelogo" src ="http://media.steampowered.com/steamcommunity/public/images/apps/${playedgame.appid}/${playedgame.img_logo_url}.jpg">
-            <h2 class="text-center" >${playedgame.name}</h2>
+            <h2 class="text-center" >${displayname(playedgame)}</h2>
             <p class="text-center">${timeplayed(playedgame.playtime_forever)} hrs on record</p>
         </div>
         `
