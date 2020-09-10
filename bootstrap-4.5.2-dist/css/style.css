@@ -18,7 +18,12 @@ html, body {
   margin: auto;
   border-color: #3f3f3f;
 }
-
+.gamespaces{
+  padding: 10px;
+}
+.totheleft{
+  float: left;
+}
 .blackground{
   background-color: #3f3f3f;
   border-color:#3f3f3f ;
