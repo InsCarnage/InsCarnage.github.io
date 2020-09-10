@@ -33,7 +33,9 @@ function timeplayed(playtime_forever) {
 function gamelogoTemplate(playedgame){
     return `
         <div class="gameTitles sameColor totheleft gamespaces overvlow">
-            <img class="gamelogo" src ="http://media.steampowered.com/steamcommunity/public/images/apps/${playedgame.appid}/${playedgame.img_logo_url}.jpg">
+            <a href="https://store.steampowered.com/app/${playedgame.appid}/">
+            <img class="gamelogo"  src ="http://media.steampowered.com/steamcommunity/public/images/apps/${playedgame.appid}/${playedgame.img_logo_url}.jpg">
+            </a>
             <h2 class="text-center" >${displayname(playedgame)}</h2>
             <p class="text-center">${timeplayed(playedgame.playtime_forever)} hrs on record</p>
         </div>
