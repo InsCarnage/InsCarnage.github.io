@@ -7,7 +7,7 @@
 
 
 const api_url = 'https://cors-anywhere.herokuapp.com/http://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v0001/?key=74154A491CFC2034F06B54580A5A52E2&steamid=76561198242197926&format=json'
-
+// change Counter-Strike: Global Offensive into CS:GO name is very huge
 function displayname(gametype){
     let x = gametype.name;
     if (x=="Counter-Strike: Global Offensive") {
@@ -16,7 +16,7 @@ function displayname(gametype){
     return x;
 }
 
-
+// change how time looks and the amount of decimals
 function timeplayed(playtime_forever) {
     let timecalc =  (playtime_forever/60).toFixed(1);
     let timeINt = parseInt(timecalc)
@@ -29,6 +29,7 @@ function timeplayed(playtime_forever) {
     }
     return r
 }
+// template to display what was recieved from api display recent games played
 function gamelogoTemplate(playedgame){
     return `
         <div class="gameTitles sameColor totheleft gamespaces overvlow">
@@ -38,7 +39,7 @@ function gamelogoTemplate(playedgame){
         </div>
         `
 }
-
+//get the Json data from the steam api
 async function getSteam(){
     try {
         const response = await fetch(api_url);
