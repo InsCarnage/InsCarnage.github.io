@@ -20,6 +20,8 @@ html, body {
 }
 .overvlow{
   max-width: 204px;
+  left: 0;
+  top: 0%;
 }
 .gamespaces{
   padding: 10px;
