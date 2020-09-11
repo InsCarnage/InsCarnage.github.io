@@ -32,7 +32,7 @@ function timeplayed(playtime_forever) {
 // template to display what was recieved from api display recent games played
 function gamelogoTemplate(playedgame){
     return `
-        <div class="gameTitles sameColor totheleft gamespaces overvlow">
+        <div class="gameTitles sameColor topcente totheleft gamespaces overvlow">
             <a href="https://store.steampowered.com/app/${playedgame.appid}/">
             <img class="gamelogo"  src ="http://media.steampowered.com/steamcommunity/public/images/apps/${playedgame.appid}/${playedgame.img_logo_url}.jpg">
             </a>
