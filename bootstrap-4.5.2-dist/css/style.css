@@ -13,11 +13,11 @@ html, body {
 .smalltext{
   font-size: 15px;
 }
-a:link{
+.spaceX:link{
   color: #d5d5d5d5;
   border-bottom: 1px solid #d5d5d5d5;
 }
-a:hover{
+.spaceX:hover{
   color: #d5d5d5d5;
   border-bottom: 1px solid #d5d5d5d5;
 }
