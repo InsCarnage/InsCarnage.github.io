@@ -12,7 +12,7 @@ function readdate(misdate) {
 // output template
 function spacetemplate(mission){
     return `
-        <div class="gameTitles sameColor topcente totheleft gamespaces overvlow">
+        <div class="samebox sameColor topcente totheleft gamespaces overvlow">
             <h2 class="text-center" >${mission.mission_name}</h2>
             <p class="text-center smalltext">${readdate(mission.launch_date_local)}</p>
         </div>
