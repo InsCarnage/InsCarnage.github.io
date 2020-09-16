@@ -2,14 +2,14 @@
 
 //get input from text box
 async function getSuper() {
-    x = document.getElementById("SuperTxtbox").value;
-    x = x.replace(/\s+/g,'_');
+    Hname = document.getElementById("SuperTxtbox").value;
+    x = Hname.replace(/\s+/g,'_');
     console.log(x);
     getHero();
     
 }
 var x ='';
-
+var Hname ='';
 // template to display what was recieved from api display recent games played
 function superTemplate(superinfo){
     return `
@@ -35,7 +35,7 @@ async function getHero(){
         console.log(data.results[0].name);
         console.log(data.results[0].biography.publisher);
         document.getElementById("SuperHeroApi").innerHTML = `
-        <h1 class="sameColor text-center">Search resaults for ${x}</h1>
+        <h1 class="sameColor text-center">Search resaults for ${Hname}</h1>
         ${data.results.map(superTemplate).join('')}`
 
     } catch (error) {
