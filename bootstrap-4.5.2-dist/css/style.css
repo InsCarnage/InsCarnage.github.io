@@ -10,6 +10,11 @@ html, body {
   padding: 0px;
   overflow-x: hidden;
 }
+.superimg{
+
+  max-width: 144px;
+  max-height: 192px;
+}
 .smalltext{
   font-size: 15px;
 }

@@ -13,6 +13,7 @@
 	<link href="bootstrap-4.5.2-dist/css/style.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css"> -->
     <script src="scripts/steamscript.js"></script>
+    <script src="scripts/superhero.js"></script>
     <script src="scripts/spaceX.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -269,16 +270,20 @@
  <!--API-->
     <div class="container-fluid padding">
         <div class=" padding">
+            <div class="sameColor text-center">
+                <label for="fname">Super Hero / Villan :</label>
+                <input type="text" id="SuperTxtbox" name="SuperTxtbox">
+                <button onclick="getSuper()">Try it</button><br><br>
+            </div>
             <div class=" sameColor">
-                <h1 id="marvel"class="display-4 text-center">wait for api load</h1>
+                <h1 id="SuperHeroApi"class="text-center"></h1>
+            </div>
+            </div>
             </div>
             
-                
-            </div>
-            </div>
-            <hr class="my-1">
         </div>
     </div>
+    <hr class="my-1">
     <!--Footer / if needed-->
     <footer>
         <div class="container-fluid padding">
