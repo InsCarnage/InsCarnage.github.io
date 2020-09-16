@@ -15,7 +15,7 @@ function superTemplate(superinfo){
     return `
         <div class="gameTitles sameColor topcente totheleft gamespaces overvlow">
             <img class="superimg"  src ="${superinfo.image.url}">
-            <h2 class="text-center" >${superinfo.biography["full-name"]}</h2>
+            <h2 class="text-center superimg" >${superinfo.biography["full-name"]}</h2>
         </div>
         `
 }

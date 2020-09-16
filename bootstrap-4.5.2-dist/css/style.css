@@ -113,6 +113,11 @@ footer {
   position: relative;
   top: 0px;
 }
+.superCenter{
+  display: grid;
+  grid-template-columns: 150px;
+  justify-content: center;
+}
 
 .card{
   display: grid;
