@@ -10,7 +10,7 @@ async function getSuper() {
 }
 var x ='';
 var Hname ='';
-// template to display what was recieved from api display recent games played
+// template to display what was recieved from api display searched super hero / villain
 function superTemplate(superinfo){
     return `
         <div class="gameTitles sameColor topcente totheleft gamespaces overvlow">

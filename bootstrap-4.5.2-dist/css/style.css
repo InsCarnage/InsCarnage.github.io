@@ -10,6 +10,11 @@ html, body {
   padding: 0px;
   overflow-x: hidden;
 }
+.maxspace{
+  max-width: 204px;
+  max-height: 176px;
+  padding-bottom: 5px;
+}
 .superimg{
 
   max-width: 144px;
