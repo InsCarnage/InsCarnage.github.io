@@ -22,6 +22,7 @@
 </head>
 <body>
     <!--navbar use expand-lg-->
+    <!--only used bootstrap for my nav bar everything else is coded into my css-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <a href="#index.html" class="navbar-brand">Jeandre van Zyl</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
@@ -55,8 +56,6 @@
     </nav>
     
     </div>
-    <!--About Me Foto-->
-
     <!--About Me-->
     <div class="container-fluid" id="aboutme">
         <div class="row jumbotron">
@@ -83,6 +82,7 @@
     <div class="container-fluid padding">
         <div class="truecenter">
         <div class="row justify-content-center">
+            <!--Card 1-->
             <div class="padpos">
                 <div class="card slide_in">
                     <div class="card-image">
@@ -97,7 +97,7 @@
                     </div>
                 </div>
             </div>
-
+            <!--Card 2 -->
             <div class="padpos">
                 <div class="card slide_in">
                     <div>
@@ -112,7 +112,7 @@
                     </div>
                 </div>
             </div>
-
+            <!--Card 3-->
             <div class="padpos">
                 <div class="card slide_in">
                     <div>
@@ -266,11 +266,11 @@
         </div>
     </div >
 
- <!--API-->
+ <!--API for search of comic Characters-->
     <div class="container-fluid padding">
         <div class=" padding">
             <div class="sameColor text-center">
-                <label for="fname">Super Hero / Villain :</label>
+                <h1 for="fname">Super Hero / Villain :</h1>
                 <input type="text" id="SuperTxtbox" name="SuperTxtbox">
                 <button onclick="getSuper()">Try it</button><br><br>
             </div>
