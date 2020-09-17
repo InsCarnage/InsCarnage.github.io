@@ -10,6 +10,7 @@ html, body {
   padding: 0px;
   overflow-x: hidden;
 }
+
 .maxspace{
   max-width: 204px;
   max-height: 176px;
@@ -26,6 +27,7 @@ html, body {
 .samebox{
   width: 204px;
 }
+/* Space X api hover over link color and boarders*/
 .spaceX:link{
   color: #d5d5d5d5;
   border-bottom: 1px solid #d5d5d5d5;
@@ -34,6 +36,7 @@ html, body {
   color: #d5d5d5d5;
   border-bottom: 1px solid #d5d5d5d5;
 }
+/* Used this for displaying the same background colour for every element so the theme of the web page stays the same*/
 .samebackground{
   background-color: #3f3f3f;
   width: 50%;
@@ -42,18 +45,23 @@ html, body {
   margin: auto;
   border-color: #3f3f3f;
 }
+/* used to stop overvlow of the website elements*/
 .overvlow{
   max-width: 204px;
   left: 0;
   top: 0%;
 }
+/* elements spaced apart evenly*/
 .gamespaces{
   padding: 10px;
 }
+/* sends elements to the left*/
 .totheleft{
   float: left;
 
 }
+/* not every item can be unified using same background
+blackground is used in the same way where samebackground would brake something in the visuals*/
 .blackground{
   background-color: #3f3f3f;
   border-color:#3f3f3f ;
@@ -61,6 +69,7 @@ html, body {
 .navbar{
   padding: .8rem;
 }
+/* Carousel was made */
 .carousel-inner {
   max-width: 60%;
   margin: 0 auto;
@@ -83,6 +92,7 @@ html, body {
   font-size: 500%;
   text-shadow: 1px 1px 10px #000000;
 }
+/* Jumbotron was made*/
 .jumbotron {
   padding: 1rem;
   border-radius: 0;
@@ -92,38 +102,42 @@ footer {
   background-color: #3f3f3f;
   color: #d5d5d5d5;
 }
+/*adds aditional padding for certian items */
 .padpos{
   padding:0 30px ;
   padding-top: 20px;
 }
-
+/* lowers text of the cards*/
 .textlower{
   position: relative;
   top: 60px;
 }
+/* centers items into middle*/
 .poscenter{
   top: 0;
   left: 0;
   padding: 1px;
   width: 58%;
 }
-
+/* centers items*/
 .truecenter{
   top: 0;
   left: 0%;
   width: 100%;
   text-align: center;
 }
+/* positions text at the top*/
 .textTop{
   position: relative;
   top: 0px;
 }
+/* Yes I do have a lot of centering in my css mainly because they all are for diverent items that needs diverent attributes*/
 .superCenter{
   display: grid;
   grid-template-columns: 150px;
   justify-content: center;
 }
-
+/* Cards are made*/
 .card{
   display: grid;
   grid-template-columns: 300px;
@@ -158,7 +172,8 @@ footer {
   transform: scale(1.2);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
-
+/* Cards are done */
+/* My socials are made here size and colour*/
 .social a {
   font-size: 4.5em;
   padding: 3rem;
@@ -185,26 +200,19 @@ footer {
 .fa-youtube:hover {
   color: #d5d5d5;
 }
-
+/* and hover effects that are very responsive not gonna lie*/
 ul {
   text-align: center;
   list-style: inside;
 }
-
+/* made this to display font size and can change dependant on screen size 
+also seen in media section*/
  .huge{
   font-size: 200px;
 }
-/* .center2{
-  margin: 0;
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-} */
 
 /*---frames---*/
-
+/* animations*/
 .slide_in{
   animation: slideme .7s ease;
 }
@@ -240,6 +248,7 @@ ul {
     transform: skew(0);
   }
 }
+/* slide in animation*/
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
@@ -282,7 +291,7 @@ figure {
 [class*="col-"] {
     padding: 1rem;
 }
-
+/* Created my skills dot system with dot and empty dot*/
 .dot {
   height: 25px;
   width: 25px;
@@ -329,7 +338,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 body {
   font-family: sans-serif;
 }
-
+/*Created my Timeline could have made it better tho */
 .timeline {
   white-space: nowrap;
   padding: 30px 0 10px 0;
@@ -421,11 +430,13 @@ body {
   top: 13px;
   left: 0;
 }
+/* Timeline done*/
+
 .maxsize{
   max-width: 80%;
   margin: 0 auto;
 }
-
+/* Media Queries are the area where I can adjust any class dependant on screen size helps a ton */
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .carousel-inner {
