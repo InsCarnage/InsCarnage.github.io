@@ -546,14 +546,20 @@ body {
   vertical-align: top;
   background: #13519C;
   color: #fff;
-  padding: 15px;
-  font-size: 15px;
+  padding: 0px;
+  font-size: 8px;
   text-align: center;
   position: relative;
   border-top: 4px solid #06182E;
   border-radius: 3px;
   left: -54%;
+  
+  
 }
+.smoltext{
+  font-size: 14px;
+}
+  
 .samebackground{
   background-color: #3f3f3f;
   width: 100%;
