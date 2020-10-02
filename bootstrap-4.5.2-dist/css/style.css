@@ -45,6 +45,9 @@ html, body {
   margin: auto;
   border-color: #3f3f3f;
 }
+.gameTitles{
+  float: center;
+}
 /* used to stop overvlow of the website elements*/
 .overvlow{
   max-width: 204px;
@@ -59,6 +62,7 @@ html, body {
 .totheleft{
   display: inline-block;
   vertical-align: top;
+  text-align: center;
 }
 /* not every item can be unified using same background
 blackground is used in the same way where samebackground would brake something in the visuals*/
