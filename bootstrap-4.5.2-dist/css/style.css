@@ -46,7 +46,7 @@ html, body {
   border-color: #3f3f3f;
 }
 .gameTitles{
-  float: center;
+  text-align: center;
 }
 /* used to stop overvlow of the website elements*/
 .overvlow{
