@@ -16,6 +16,7 @@ html, body {
   max-height: 176px;
   padding-bottom: 5px;
 }
+
 .superimg{
   max-width: 144px;
   max-height: 192px;
@@ -56,8 +57,8 @@ html, body {
 }
 /* sends elements to the left*/
 .totheleft{
-  float: left;
-
+  display: inline-block;
+  vertical-align: top;
 }
 /* not every item can be unified using same background
 blackground is used in the same way where samebackground would brake something in the visuals*/
