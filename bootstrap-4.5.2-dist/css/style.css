@@ -517,6 +517,11 @@ body {
     margin: auto;
     border-color: #3f3f3f;
   }
+  .totheleft{
+    display: inline-flexbox;
+    vertical-align: top;
+    text-align: center;
+  }
 }
 @media (max-width: 576px) {
   .carousel-inner {
@@ -575,3 +580,4 @@ body {
 }
 
 }
+
