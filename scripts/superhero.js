@@ -52,7 +52,7 @@ async function getHero(){
         console.log(data.results[0].name);
         console.log(data.results[0].biography.publisher);
         document.getElementById("SuperHeroApi").innerHTML = `
-        <h1 class="sameColor text-center">Search resaults for ${Hname}</h1>
+        <h1 class="sameColor text-center">Search results for ${Hname}</h1>
         ${data.results.map(superTemplate).join('')}`
 
     } catch (error) {
