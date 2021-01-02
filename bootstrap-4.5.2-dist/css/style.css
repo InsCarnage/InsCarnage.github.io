@@ -11,6 +11,10 @@ html, body {
   overflow-x: hidden;
 }
 
+
+
+
+
 .bringforward{
   background: #3f3f3f;
   visibility: visible;
@@ -93,24 +97,46 @@ blackground is used in the same way where samebackground would brake something i
   padding: .8rem;
 }
 /* Carousel was made */
-.carousel-inner {
-  max-width: 60%;
-  margin: 0 auto;
-}
+
 .carousel {
-  max-height: 400px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  max-height: 700px;
 }
 
 .carousel-inner img {
-  width: 100%;
-  height: 30;
+  
+  display: flex;
+  margin: auto;
+  width: 20%;
+  height: 100%;
   /* border-radius: 18px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9); */
 }
-.carousel-caption h1 {
+.carousel-caption h3 {
+  
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  background: rgba( 255, 255, 255, 0.75 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur(6.0px);
+  -webkit-backdrop-filter: blur( 6.0px );
+  border-radius: 10px;
   font-size: 500%;
   text-shadow: 1px 1px 10px #000000;
 }
+.carousel-caption button{
+  position: absolute;
+  top: 300%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .shadow{
   font-size: 500%;
   text-shadow: 1px 1px 10px #000000;
@@ -539,6 +565,54 @@ body {
   
 }
 @media (max-width: 500px){
+  
+  .carousel {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  max-height: 300px;
+}
+
+.carousel-inner img {
+  
+  display: flex;
+  margin: auto;
+  width: 40;
+  height: 100%;
+  /* border-radius: 18px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9); */
+}
+.carousel-caption h3 {
+  
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  background: rgba( 255, 255, 255, 0.75 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur(6.0px);
+  -webkit-backdrop-filter: blur( 6.0px );
+  border-radius: 10px;
+  font-size: 500%;
+  text-shadow: 1px 1px 10px #000000;
+}
+.carousel-caption button{
+  position: absolute;
+  top: 500%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
   .maxspace{
     max-width: 160px;
     max-height: 176px;
