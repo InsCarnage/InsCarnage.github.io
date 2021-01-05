@@ -50,14 +50,13 @@ async function getSteam(){
         const response = await fetch(api_url);
         const data = await response.json();
         console.log(data);
-        console.log(data.response.games[0].name);
-        console.log(data.response.games[1].name);
         // aswell as casting it into html on the page
         document.getElementById("imaginedude").innerHTML = `
         <h1 class="sameColor text-center"> Recent games played</h1>
         ${data.response.games.map(gamelogoTemplate).join('')}`
 
     } catch (error) {
+        document.getElementById("imaginedude").innerHTML =`API failed to load please try again later`;
         console.log("steam no work");
         console.log(error);
     }
